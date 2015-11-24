@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity -->
+    <string name="app_name">ipKamera PRO</string>
+    <string name="select_mode">Sila Pilih Mod : </string>
+    <string name="camera">Kamera Mod</string>
+    <string name="monitor">Pantau Mod</string>
+    <string name="wifi_not_connected">WiFi tidak disambungkan</string>
+    <string name="wifi_offline">Status WiFi: Luar Talian</string>
+    <string name="wifi_online">Status WiFi: Atas Talian</string>
+    <string name="api_level_have_to_greater_than_14">Android 4.0 atau versi yang lebih baharu diperlukan untuk melaksanakan mod kamera</string>
+    <string name="exit_title">Pengesahan</string>
+    <string name="exit_content">Anda pasti mahu menutup aplikasi yang sedang berlangsung ini?</string>
+    <string name="exit_sure">Ya</string>
+    <string name="exit_cancel">Batal</string>
+    
+    <!-- Camera Mode -->
+    <string name="camera_mode_enter_code_prompt">Sila isi kod ini pada peranti yang melaksanakan mod pantau(peranti ini mesti diletakkan dengan mendatar)</string>
+    
+    <!-- Monitor Mode -->
+    <string name="strCode">Kod</string>
+    <string name="invalid_input">Input tidak sah</string>
+    <string name="execution_error">Ralat pelaksanaan</string>
+    <string name="image_btn_description">Mula menerima aliran video</string>
+    <string name="monitor_mode_enter_code_prompt">Sila isi kod yang ditunjukkan pada peranti yang melaksanakan mod kamera, kemudian tekan PLAY ikon dan tunggu kira-kira 5 saat untuk mula bermain video</string>
+    
+    <!-- Common -->
+    <string name="colon">:</string>
+    <string name="show_ip">Tunjuk wifi IP saya</string>
+    <string name="about">Tentang</string>
+    <string name="about_title">Versi 1.1</string>
+    <string name="about_content">
+        Terima kasih atas penggunaan ipCamera. Ini perisian aplikasi dibuat dalam amatur. \n\nJika ralat berlaku semasa perisian operasi, atau jika anda mempunyai apa-apa cadangan untuk perisian aplikasi ini, anda dialu-alukan untuk memberitahu pengarang.\nTerima kasih.
+    </string>
+    <string name="about_contact_author">Hubungi Pengarang</string>
+    <string name="license">Lesen</string>
+    <string name="license_content">Perisian aplikasi ini ialah berdasarkan libstreaming API pustaka dan diagihkan di bawah terma GPL v3. \nUntuk maklumat lanjut mengenai lesen ini, sila rujuk kepada gnu.org laman web rasmi.</string>
+    <string name="license_detail_info">Maklumat Lanjut</string>
+    <string name="license_source">Kod Sumber</string>
+    <string name="troubleshoot">Penyelesaian Masalah</string>
+    <string name="back">Balik</string>
+    
+    <!-- Troubleshoot Content -->
+    <string name="troubleshoot_explanation_title">
+        Pastikan empat yang berikut :
+    </string>
+    <string name="troubleshoot_explanation_content">
+        1. Peranti yang melaksanakan mod pantau dan mod kamera mesti disambungkan dengan AP WIFI yang sama.\n\n
+        2. Tembok api yang di dalam penghala WIFI atau titik akses nirkabel tidak melarang peranti yang melaksanakan mod kamera menghantarkan aliran video, jika hantaran aliran video dilarang, tembok api perlu ditutup.\n\n
+        3. Perisian anti-virus pada peranti tidak melarang hantaran aliran video, jika aliran video dilarang oleh perisian anti-virus, tindakan atau penetapan lain perlu dilakukan, atau terus menutup aplikasi perisian anti-virus.\n\n
+        4. Peranti yang melaksanakan mod kamera memerlukan sistem Android 4.0 atau versi yang lebih baharu.
+    </string>
+    <string name="troubleshoot_solution_title">
+        Jika perkara-perkara diatas telah dipastikan tetapi masih menghadapi masalah apabila menyambungkan kedua-dua peranti, anda digalakkan supaya mengikut langkah-langkah seperti yang berikut :
+    </string>
+    <string name="troubleshoot_solution_content">
+        1. Mengoperasikan semula peranti mod kamera. (Reboot)\n
+        2. Mengoperasikan semula peranti mod pantau. (Reboot)\n
+        3. Mengoperasikan semula penghala WIFI atau titik akses nirkabel.(Reboot)
+    </string>
+    <string name="troubleshoot_suggestion">
+        Jika perkara-perkara di atas telah dilakukan tetapi masih menghadapi masalah, sila hubungi pengarang perisian dan menerangkan keadaan yang anda mengalami.
+    </string>
+
+</resources>

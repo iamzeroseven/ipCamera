@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity -->
+    <string name="app_name">ip攝影機 PRO</string>
+    <string name="select_mode">請選擇模式 : </string>
+    <string name="camera">攝影模式</string>
+    <string name="monitor">顯示模式</string>
+    <string name="wifi_not_connected">未連接上WiFi</string>
+    <string name="wifi_offline">WiFi狀態 : 離線</string>
+    <string name="wifi_online">WiFi狀態 : 連線</string>
+    <string name="api_level_have_to_greater_than_14">執行攝影模式需使用Android 4.0或更新版本</string>
+    <string name="exit_title">確認</string>
+    <string name="exit_content">您確定要結束本應用程式嗎？</string>
+    <string name="exit_sure">是</string>
+    <string name="exit_cancel">取消</string>
+    
+    <!-- Camera Mode -->
+    <string name="camera_mode_enter_code_prompt">請於顯示模式的裝置輸入此字碼(本裝置必須以橫擺放)</string>
+    
+    <!-- Monitor Mode -->
+    <string name="strCode">字碼</string>
+    <string name="invalid_input">無效的輸入</string>
+    <string name="execution_error">執行發生錯誤</string>
+    <string name="image_btn_description">開始讀取視訊流</string>
+    <string name="monitor_mode_enter_code_prompt">請輸入顯示於攝影模式裝置的字碼，然後按下PLAY圖示和等待約5秒鐘開始播放視訊</string>
+    
+    <!-- Common -->
+    <string name="colon">:</string>
+    <string name="show_ip">顯示我的wifi IP</string>
+    <string name="about">關於</string>
+    <string name="about_title">版本 1.1</string>
+    <string name="about_content">
+        感謝您使用ipCamera。這應用程式是在業餘之下完成。\n\n如果程式運行期間發生錯誤，或您有任何對本應用程式的建議，歡迎讓作者知道。\n謝謝。
+    </string>
+    <string name="about_contact_author">聯繫作者</string>
+    <string name="license">授權</string>
+    <string name="license_content">本應用程式是基於libstreaming API函式庫和授權於GPL v3之下。\n關於此授權的詳細資訊請參閱gnu.org官方網站。</string>
+    <string name="license_detail_info">詳細資訊</string>
+    <string name="license_source">源代碼</string>
+    <string name="troubleshoot">故障排除</string>
+    <string name="back">返回</string>
+
+    <!-- Troubleshoot Content -->
+    <string name="troubleshoot_explanation_title">
+        請確保以下四項 :
+    </string>
+    <string name="troubleshoot_explanation_content">
+        1. 執行Monitor模式和Camera模式的裝置有開啟WIFI並連接在同一個WIFI AP底下。\n\n
+        2. WIFI路由器或WIFI AP之防火牆沒有阻擋Camera模式裝置發送的視訊訊號，若有則需關閉該防火牆。\n\n
+        3. 裝置所安裝的防毒軟體沒有阻擋裝置所發送的視訊訊號，若有需另做設定或將防毒軟體關閉。\n\n
+        4. 執行Camera模式的裝置須至少使用Android 4.0版本或以上。
+    </string>
+    <string name="troubleshoot_solution_title">
+        若以上事項皆確認完畢後應用程式仍無法取得連線，請嘗試以下 :
+    </string>
+    <string name="troubleshoot_solution_content">
+        1. 重啟裝置Camera模式的裝置。\n
+        2. 重啟裝置Monitor模式的裝置。\n
+        3. 重啟WIFI Router或AP。
+    </string>
+    <string name="troubleshoot_suggestion">
+        若完成上述仍無法執行，請聯絡作者並描述您所遇到的情況。
+    </string>
+    
+</resources>

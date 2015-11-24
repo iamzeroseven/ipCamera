@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity -->
+    <string name="app_name">ipCamera PRO</string>
+    <string name="select_mode">Please Select Mode : </string>
+    <string name="camera">Camera Mode</string>
+    <string name="monitor">Monitor Mode</string>
+    <string name="wifi_not_connected">WiFi Not Connected</string>
+    <string name="wifi_offline">WiFi Status : Offline</string>
+    <string name="wifi_online">Wifi Status : Online</string>
+    <string name="api_level_have_to_greater_than_14">Android 4.0 or later is required to run camera mode</string>
+    <string name="exit_title">Confirmation</string>
+    <string name="exit_content">Are you sure to end the application?</string>
+    <string name="exit_sure">Yes</string>
+    <string name="exit_cancel">Cancel</string>
+    
+    <!-- Camera Mode -->
+    <string name="camera_mode_enter_code_prompt">Please enter this code to Monitor Mode device(This device needs to be placed horizontally)</string>
+    
+    <!-- Monitor Mode -->
+    <string name="strCode">Code</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="execution_error">Execution Error</string>
+    <string name="image_btn_description">Start reading video stream</string>
+    <string name="monitor_mode_enter_code_prompt">Please enter the code showing on Camera Mode device, then click PLAY icon and wait for about 5 seconds to begin show video</string>
+    
+    <!-- Common -->
+    <string name="colon">:</string>
+    <string name="show_ip">Show my wifi IP</string>
+    <string name="about">About</string>
+    <string name="about_title">Version 1.1</string>
+    <string name="about_content">
+        Thanks for using ipCamera. This application\'s accomplished under amateur.\n\nIf an error occurs during the execution of the application, or should you have any suggestion for this application, please advise.\nThanks.
+    </string>
+    <string name="about_contact_author">Contact Author</string>  
+    <string name="license">License</string>
+    <string name="license_content">This application\'s base on libstreaming API library and License under GPL v3. \nThe detail information for this license please visit gnu.org official website.</string>
+    <string name="license_detail_info">Detail Information</string>
+    <string name="license_source">Source</string>
+    <string name="troubleshoot">Troubleshoot</string>
+    <string name="back">Back</string>
+    
+    <!-- Troubleshoot Content -->
+    <string name="troubleshoot_explanation_title">
+        Make sure that the following four :
+    </string>
+    <string name="troubleshoot_explanation_content">
+        1. Both running Monitor Mode device and Camera Mode device need to connect under the same WIFI AP or WIFI router.\n\n
+        2. WIFI Router built-in firewall or WIFI AP built-in firewall does not blocks the video stream signal from Camera Mode device, if it so, firewall needs to be closed.\n\n
+        3. Anti-virus software installed in both devices does not blocks the video stream signal from Camera Mode device, if it so, need to do some additional setting or just turn off/stop the anti-virus software.\n\n
+        4. Android 4.0 or later is required to run Camera Mode.
+    </string>
+    <string name="troubleshoot_solution_title">
+        If the above matters are confirmed but both devices are still unable to create the connection, please try the following :
+    </string>
+    <string name="troubleshoot_solution_content">
+        1. Reboot the Camera Mode device.\n
+        2. Reboot the Monitor Mode device.\n
+        3. Reboot the WIFI router or AP.
+    </string>
+    <string name="troubleshoot_suggestion">
+         If it still can not be performed after the completion of the above, please contact to the author and describe the situation that you are experiencing.
+    </string>
+
+</resources>

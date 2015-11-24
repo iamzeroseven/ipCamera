@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yabtogo.ip_camera_c.IPCameraMain" >
+
+    <item
+        android:id="@+id/menu_show_ip"
+        android:orderInCategory="0"
+        android:title="@string/show_ip"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_troubleshoot"
+        android:orderInCategory="1"
+        android:title="@string/troubleshoot"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="2"
+        android:title="@string/about"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_license"
+        android:orderInCategory="3"
+        android:title="@string/license"
+        app:showAsAction="never"/>
+
+</menu>

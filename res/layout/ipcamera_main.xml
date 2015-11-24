@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/black"
+    tools:context="com.yabtogo.ip_camera_c.IPCameraMain" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/yellow"
+        android:text="@string/select_mode" />
+    
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:text="@string/camera"
+        android:textColor="@color/dark_cyan"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/camera" />
+    
+    <Button
+        android:id="@+id/btnMonitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCamera"
+        android:layout_centerHorizontal="true"
+        android:text="@string/monitor"
+        android:textColor="@color/dark_cyan"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/monitor" />
+
+</RelativeLayout>
+

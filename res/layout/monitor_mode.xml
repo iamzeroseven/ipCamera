@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp" >
+        <TextView
+            android:id="@+id/tvPrompt"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/yellow"
+            android:text="@string/monitor_mode_enter_code_prompt" />
+        
+        <TextView
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="@color/yellow"
+	        android:textSize="20sp"
+	        android:text="@string/colon" />
+
+        <EditText
+            android:id="@+id/etIp"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/strCode"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:inputType="number" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+            <ImageButton
+	            android:id="@+id/btnPlay"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="@string/image_btn_description"
+	            android:background="@null"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/play_button_states" />
+
+            <ProgressBar
+                android:id="@+id/pbProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="invisible" />
+            
+        </RelativeLayout>
+    </LinearLayout>
+     
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

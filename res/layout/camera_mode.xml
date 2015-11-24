@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.yabtogo.ip_camera_c.CameraMode" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+        
+	    <TextView
+	        android:id="@+id/tvPrompt"
+	        android:layout_width="0dp"
+	        android:layout_weight="8"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textColor="@color/yellow"
+	        android:text="@string/camera_mode_enter_code_prompt" />
+	    
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="@color/yellow"
+	        android:textSize="20sp"
+	        android:text="@string/colon" />
+	    
+	    <TextView
+	        android:id="@+id/tvCode"
+	        android:layout_width="0dp"
+	        android:layout_weight="2"
+	        android:layout_height="wrap_content"
+	        android:textStyle="bold"
+	        android:textColor="@color/red"
+	        android:textSize="20sp"
+	        android:text="@string/strCode" />
+    
+    </LinearLayout>
+    
+    <net.majorkernelpanic.streaming.gl.SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ll" />
+
+</RelativeLayout>
