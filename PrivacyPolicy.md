@@ -1,3 +1,4 @@
+# ipCamera Privacy Policy
 We respect and value your privacy here at YABTOGO.
 
 In this app(ipCamera) we do not collect, store or share any personal information or location data.
