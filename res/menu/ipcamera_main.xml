@@ -26,5 +26,11 @@
         android:orderInCategory="3"
         android:title="@string/license"
         app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/menu_privacy_policy"
+        android:orderInCategory="4"
+        android:title="@string/privacy_policy"
+        app:showAsAction="never"/>
 
 </menu>

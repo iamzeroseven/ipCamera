@@ -29,7 +29,7 @@
     <string name="colon">:</string>
     <string name="show_ip">Show my wifi IP</string>
     <string name="about">About</string>
-    <string name="about_title">Version 1.1</string>
+    <string name="about_title">Version 1.2</string><!-- 這裡要和Manifest的versionName一樣 -->
     <string name="about_content">
         Thanks for using ipCamera. This application\'s accomplished under amateur.\n\nIf an error occurs during the execution of the application, or should you have any suggestion for this application, please advise.\nThanks.
     </string>
@@ -39,7 +39,10 @@
     <string name="license_detail_info">Detail Information</string>
     <string name="license_source">Source</string>
     <string name="troubleshoot">Troubleshoot</string>
-    <string name="back">Back</string>
+    <string name="back">Back</string><!-- 共用 -->
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_content">In this app, we do not collect, store or share any personal information. \nPlease link to ipCamera Privacy Policy site for more detail.</string>
+    <string name="privacy_policy_link">Privacy Policy Link</string>
     
     <!-- Troubleshoot Content -->
     <string name="troubleshoot_explanation_title">

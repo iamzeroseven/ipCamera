@@ -1692,6 +1692,7 @@ containing a value of this type.
         public static final int ll=0x7f09003f;
         public static final int menu_about=0x7f09004c;
         public static final int menu_license=0x7f09004d;
+        public static final int menu_privacy_policy=0x7f09004e;
         public static final int menu_show_ip=0x7f09004a;
         public static final int menu_troubleshoot=0x7f09004b;
         public static final int middle=0x7f09001d;
@@ -1847,6 +1848,11 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f0a0004;
         public static final int about=0x7f0a0024;
         public static final int about_contact_author=0x7f0a0027;
+        /**  這裡要和Manifest的versionName一樣 
+ 這裡要和Manifest的versionName一樣 
+ 這裡要和Manifest的versionName一樣 
+ 這裡要和Manifest的versionName一樣 
+         */
         public static final int about_content=0x7f0a0026;
         public static final int about_title=0x7f0a0025;
         public static final int api_level_have_to_greater_than_14=0x7f0a0017;
@@ -1883,6 +1889,14 @@ containing a value of this type.
         public static final int license_source=0x7f0a002b;
         public static final int monitor=0x7f0a0013;
         public static final int monitor_mode_enter_code_prompt=0x7f0a0021;
+        /**  共用 
+ 共用 
+ 共用 
+ 共用 
+         */
+        public static final int privacy_policy=0x7f0a002e;
+        public static final int privacy_policy_content=0x7f0a002f;
+        public static final int privacy_policy_link=0x7f0a0030;
         public static final int select_mode=0x7f0a0011;
         public static final int show_ip=0x7f0a0023;
         /**  Monitor Mode 
@@ -1892,16 +1906,16 @@ containing a value of this type.
          */
         public static final int strCode=0x7f0a001d;
         public static final int troubleshoot=0x7f0a002c;
-        public static final int troubleshoot_explanation_content=0x7f0a002f;
+        public static final int troubleshoot_explanation_content=0x7f0a0032;
         /**  Troubleshoot Content 
  Troubleshoot Content 
  Troubleshoot Content 
  Troubleshoot Content 
          */
-        public static final int troubleshoot_explanation_title=0x7f0a002e;
-        public static final int troubleshoot_solution_content=0x7f0a0031;
-        public static final int troubleshoot_solution_title=0x7f0a0030;
-        public static final int troubleshoot_suggestion=0x7f0a0032;
+        public static final int troubleshoot_explanation_title=0x7f0a0031;
+        public static final int troubleshoot_solution_content=0x7f0a0034;
+        public static final int troubleshoot_solution_title=0x7f0a0033;
+        public static final int troubleshoot_suggestion=0x7f0a0035;
         public static final int wifi_not_connected=0x7f0a0014;
         public static final int wifi_offline=0x7f0a0015;
         public static final int wifi_online=0x7f0a0016;

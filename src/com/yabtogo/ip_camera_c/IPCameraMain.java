@@ -183,6 +183,9 @@ public class IPCameraMain extends ActionBarActivity {
 			case R.id.menu_license:
 				showLicenseDialog();
 				break;
+			case R.id.menu_privacy_policy:
+        showPrivacyPolicyDialog();
+        break;
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -233,6 +236,25 @@ public class IPCameraMain extends ActionBarActivity {
 		})
 		.show();
 	}
+	
+	private void showPrivacyPolicyDialog(){
+    new AlertDialog.Builder(IPCameraMain.this)
+    .setTitle(R.string.privacy_policy)
+    .setIcon(R.drawable.ic_launcher)
+    .setMessage(R.string.privacy_policy_content)
+    .setPositiveButton(R.string.privacy_policy_link, new DialogInterface.OnClickListener(){  //隱私權政策連結
+      public void onClick(DialogInterface dialoginterface,int i){
+        Uri uri=Uri.parse("https://github.com/iamzeroseven/ipCamera/blob/master/PrivacyPolicy.md#ipcamera-privacy-policy"); //這個連結要和Google Play Console中設定的隱私權政策連結一樣
+        Intent intent=new Intent(Intent.ACTION_VIEW,uri);
+        startActivity(intent); 
+      }
+    })
+    .setNegativeButton(R.string.back, new DialogInterface.OnClickListener(){  //返回程式
+      public void onClick(DialogInterface dialoginterface,int i){
+      }
+    })
+    .show();
+  }
 	
 	private void showTroubleshootDialog(){
 		// into Troubleshoot Content

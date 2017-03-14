@@ -29,7 +29,7 @@
     <string name="colon">:</string>
     <string name="show_ip">Tunjuk wifi IP saya</string>
     <string name="about">Tentang</string>
-    <string name="about_title">Versi 1.1</string>
+    <string name="about_title">Versi 1.2</string><!-- 這裡要和Manifest的versionName一樣 -->
     <string name="about_content">
         Terima kasih atas penggunaan ipCamera. Ini perisian aplikasi dibuat dalam amatur. \n\nJika ralat berlaku semasa perisian operasi, atau jika anda mempunyai apa-apa cadangan untuk perisian aplikasi ini, anda dialu-alukan untuk memberitahu pengarang.\nTerima kasih.
     </string>
@@ -39,7 +39,10 @@
     <string name="license_detail_info">Maklumat Lanjut</string>
     <string name="license_source">Kod Sumber</string>
     <string name="troubleshoot">Penyelesaian Masalah</string>
-    <string name="back">Balik</string>
+    <string name="back">Balik</string><!-- 共用 -->
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="privacy_policy_content">Dalam aplikasi ini, kami tidak mengumpul, menyimpan atau berkongsi apa-apa maklumat peribadi. \nSila pautan ke ipKamera tapak Dasar Privasi untuk maklumat lanjut.</string>
+    <string name="privacy_policy_link">Dasar Privasi Link</string>
     
     <!-- Troubleshoot Content -->
     <string name="troubleshoot_explanation_title">
